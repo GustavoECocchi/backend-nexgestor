@@ -1,0 +1,19 @@
+# NexGestor — Dependências do backend
+# Geradas manualmente para garantir portabilidade entre ambientes.
+
+# Framework
+fastapi==0.136.1
+uvicorn==0.46.0
+
+# Validação e configuração
+pydantic==2.13.3
+pydantic-settings==2.14.1
+python-dotenv==1.2.2
+
+# IA — Google Gemini
+google-genai>=1.0.0
+
+# Testes
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+httpx>=0.28.0
